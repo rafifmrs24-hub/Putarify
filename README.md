@@ -8,7 +8,7 @@ Putarify adalah aplikasi mobile yang memungkinkan pengguna untuk mencari, mengek
 
 - 🔍 Pencarian musik (lagu, album, artis) menggunakan iTunes Search API via Axios
 - 🔐 Sistem autentikasi pengguna (Login & Register) menggunakan Firebase Authentication
-- ❤️ Penyimpanan daftar favorit musik pribadi menggunakan Cloud Firestore
+- ❤️ Penyimpanan daftar favorit dan playlist musik pribadi menggunakan Cloud Firestore
 
 ---
 
