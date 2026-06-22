@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Putarify",
+    "slug": "putarify",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "putarify",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.putarify"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
