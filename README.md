@@ -1,50 +1,20 @@
-# Welcome to your Expo app 👋
+Deskripsi Aplikasi
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+MusicFinder adalah aplikasi mobile yang memungkinkan pengguna untuk mencari, mengeksplorasi, dan menyimpan informasi musik favorit mereka. Aplikasi ini mengintegrasikan iTunes Search API melalui Axios untuk mengambil data lagu, album, dan artis secara real-time, serta memanfaatkan layanan Firebase untuk autentikasi pengguna dan penyimpanan data personal.
 
-## Get started
+Fitur utama aplikasi MusicFinder mencakup:
+•	Pencarian musik (lagu, album, artis) menggunakan iTunes Search API via Axios
+•	Sistem autentikasi pengguna (Login & Register) menggunakan Firebase Authentication
+•	Penyimpanan daftar favorit musik pribadi menggunakan Cloud Firestore
 
-1. Install dependencies
+API yang Digunakan:
+Nama API	Endpoint Utama	Keterangan
+iTunes Search API	https://itunes.apple.com/search	Pencarian lagu, album, artis
+Firebase Authentication	Firebase SDK	Login & Register pengguna
+Cloud Firestore	Firebase SDK	Penyimpanan data favorit, playlist, dan nama username
 
-   ```bash
-   npm install
-   ```
+Pembagian Tugas Tim (Skenario B — 2 Orang)
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Peran	Nama Anggota	Tugas	Tanggung Jawab Demo
+Anggota 1 Frontend & Axios Specialist	Oktavia Amaliatusholikhah	Merancang seluruh UI/UX aplikasi dan bertanggung jawab penuh atas integrasi Axios untuk berkomunikasi dengan iTunes Search API	Menjelaskan desain UI dan mekanisme penarikan data dari API menggunakan Axios (Fitur 1 & Fitur 2)
+Anggota 2 Backend, State & Firebase Specialist	Rafif Mahendra Rajesh Santosa	Mengelola logika state aplikasi (penyimpanan data sementara di lokal) dan bertanggung jawab penuh atas seluruh integrasi layanan Firebase	Menjelaskan manajemen data lokal aplikasi dan arsitektur Firebase yang digunakan (Fitur 3 + setup Firebase)
